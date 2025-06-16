@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    height: 800px;
+    background-color: aqua;
+    margin: 50px auto;
+}
+
+
+.elimit1 {
+    width: 100%;
+    display: flex;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+.ekumut1-child-1 {
+    flex: 1;
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.ekumut1-child-2 {
+    flex: 1;
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.ekumut1-child-3 {
+    flex: 1;
+    height: 100%;
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+
+
+.elimit2 {
+    width: 100%;
+    display: flex;
+    height: calc(100% - 200px - 150px);
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+
+.elimit2-child1 {
+    flex: 1;
+    height: 100%;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.elimit2-child2 {
+    flex: 1;
+    height: 100%;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+.elimit3 {
+    width: 100%;
+    display: flex;
+    height: 150px;
+    display: flex;
+    gap: 10px;
+}
+
+.elimit3-child1,
+.elimit3-child2,
+.elimit3-child3,
+.elimit3-child4 {
+    flex: 1;
+    height: 100%;
+    background-color: red;
+}
+
+
+@media (max-width:1000px) {
+    .container {
+        max-width: 1200px;
+        height: 800px;
+        background-color: aqua;
+        margin: 50px auto;
+    }
+
+    .elimit1 {
+        width: 100%;
+        display: flex;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .ekumut1-child-1 {
+        flex: 1;
+        height: 100px;
+        background-color: orange;
+    }
+
+    .ekumut1-child-2 {
+        flex: 3;
+        height: 100px;
+        background-color: orange;
+
+    }
+
+    .ekumut1-child-3 {
+        background-color: orange;
+        flex: 1;
+        height: 100px;
+    }
+
+    .elimit2 {
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        height: calc(100% - 100px - 150px);
+    }
+
+    .elimit2-child1 {
+        flex: 1;
+        height: 100%;
+        background-color: rgb(6, 6, 60);
+    }
+
+    .elimit2-child2 {
+        flex: 1;
+        height: 100%;
+        background-color: rgb(6, 6, 60);
+    }
+
+    .elimit3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .elimit3-child1 {
+        width: 100%;
+        flex: 1;
+    }
+
+    .elimit3-child1 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+
+    }
+
+    .elimit3-child2 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+
+    }
+
+    .elimit3-child3 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+
+    }
+
+    .elimit3-child4 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+    }
+}
+
+@media (max-width:680px){
+    .container {
+        max-width: 1200px;
+        height: 800px;
+        background-color: aqua;
+        margin: 50px auto;
+    }
+
+    .elimit1 {
+        width: 100%;
+        display: flex;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .ekumut1-child-1 {
+        flex: 1;
+        height: 100px;
+    }
+
+    .ekumut1-child-2 {
+        flex: 3;
+        height: 100px;
+    }
+
+    .ekumut1-child-3 {
+        flex: 1;
+        height: 100px;
+    }
+
+    .elimit2 {
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        height: calc(100% - 100px - 150px);
+    }
+
+    .elimit2-child1 {
+        flex: 1;
+        height: 100%;
+        background-color: rgb(6, 6, 60);
+    }
+
+    .elimit2-child2 {
+        flex: 4;
+        height: 100%;
+        background-color: rgb(6, 6, 60);
+    }
+
+    .elimit3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .elimit3-child1 {
+        width: 100%;
+        flex: 1;
+    }
+
+    .elimit3-child1 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+
+    }
+
+    .elimit3-child2 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+
+    }
+
+    .elimit3-child3 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+
+    }
+
+    .elimit3-child4 {
+        width: 100%;
+        flex: 1;
+        background-color: gold;
+    }
+}
